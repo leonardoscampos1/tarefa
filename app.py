@@ -20,7 +20,7 @@ if 'tasks' not in st.session_state:
 tasks = st.session_state.tasks
 
 # Título do aplicativo
-st.title("Gerenciador de Tarefas Estilo Trello")
+st.title("Gerenciador de Tarefas")
 
 # Input para adicionar uma nova tarefa
 new_task = st.text_input("Adicionar nova tarefa")
